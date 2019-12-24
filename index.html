@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trade</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway&display=swap">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- start topbar -->
+    <div class="top-bar d-none d-md-block">
+        <div class="container">
+            <div class="row justify-content-between">
+
+                <div class="contact col-5">
+                    <div><strong>Email:</strong> abc@company.co | <strong>Call:</strong> 01234567890</div>
+                </div>
+
+                <div class="log col-1 px-2 text-center">
+
+                    <a href="#">login</a>
+
+                    <div class="log-form">
+                        <form>
+
+                            <div class="input-group mb-0 flex-nowrap">
+                                <div class="input-group-prepend">
+                                <span class="input-group-text"><i class="fa fa-user fa-lg"></i> </span>
+                                </div>
+                                <input type="email" class="form-control" placeholder="Email">
+                            </div>
+
+                            <div class="input-group mb-0 flex-nowrap">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fa fa-key"></i> </span>
+                                </div>
+                                <input type="password" class="form-control" placeholder="Password">
+                            </div>
+                            
+                            <div class="form-group form-check text-left">
+                                <input type="checkbox" class="form-check-input" id="remember">
+                                <label class="form-check-label w-100" for="remember">remember me</label>
+                            </div>
+
+                            <button type="submit" class="btn btn-danger btn-block">Sign in</button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- end topbar -->
+
+    <!-- start header -->
+
+    <header >
+            <nav class="navbar navbar-expand-lg navbar-md-expand-sm navbar-light bg-white py-0">
+                <div class="container">
+
+                    <button class="d-lg-none navbar-toggler" type="button" data-toggle="collapse" data-target="#navlinks" >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <a class="navbar-brand mx-auto ml-lg-n3" href="#">trade</a>
+                    
+                    <div class="collapse navbar-collapse order-12 order-lg-0" id="navlinks">
+
+                        <ul class="navbar-nav  w-100 justify-content-end">
+                            <li class="nav-item active border-bottom">
+                                <a class="px-lg-3 py-3 py-lg-5" href="#">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item border-bottom dropdown">
+                                <a class="px-lg-3 py-3 py-lg-5" href="#" id="dropdownMenuLink">men</a>
+                                <div class="dropdown-menu my-0 py-0 w-100">
+                                    <div class="row mx-0 w-100">
+                                        <div class="col-12 col-lg-3 py-3">
+                                            <a href="#" class="my-3"><h6>footwear</h6></a>
+                                            <a class="dropdown-item pl-0 py-2 border-bottom" href="#">casual shoes</a>
+                                            <a class="dropdown-item pl-0 py-2 border-bottom" href="#">formal shoes</a>
+                                            <a class="dropdown-item pl-0 py-2 border-bottom" href="#">sports shoes </a>
+                                            <a class="dropdown-item pl-0 py-2 border-bottom" href="#">flip flops</a>
+                                            <a class="dropdown-item pl-0 py-2 border-bottom" href="#">slippers</a>
+                                            <a class="dropdown-item pl-0 py-2 border-bottom" href="#">sandals</a>
+                                            <a class="dropdown-item pl-0 py-2 border-bottom" href="#">party shoes</a>
+                                        </div>
+                                        <div class="col-12 col-lg-3 py-3 border-left">
+                                            <a href="#" class="my-3"><h6>clothes</h6></a>
+                                            <a class="dropdown-item pl-0 py-2 border-bottom" href="#">casual clothes</a>
+                                            <a class="dropdown-item pl-0 py-2 border-bottom" href="#">formal clothes</a>
+                                            <a class="dropdown-item pl-0 py-2 border-bottom" href="#">sports clothes </a>
+                                            <a class="dropdown-item pl-0 py-2 border-bottom" href="#">jilbab</a>
+                                            <a class="dropdown-item pl-0 py-2 border-bottom" href="#">beach clothes</a>
+                                            <a class="dropdown-item pl-0 py-2" href="#">party clothes</a>
+                                        </div>
+                                        <div class="col-lg-6 d-none d-lg-block px-0 drop-div-img">
+                                            <img src="images/man.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item border-bottom dropdown">
+                                <a class="px-lg-3 py-3 py-lg-5" href="#" id="dropdownMenuLink">women</a>
+                                <div class="dropdown-menu my-0 py-0 w-100">
+                                    <div class="row mx-0 w-100">
+                                        <div class="col-12 col-lg-3 py-3">
+                                            <a href="#" class="my-3"><h6>footwear</h6></a>
+                                            <a class="dropdown-item pl-0 py-2 border-bottom" href="#">casual shoes</a>
+                                            <a class="dropdown-item pl-0 py-2 border-bottom" href="#">formal shoes</a>
+                                            <a class="dropdown-item pl-0 py-2 border-bottom" href="#">sports shoes </a>
+                                            <a class="dropdown-item pl-0 py-2 border-bottom" href="#">flip flops</a>
+                                            <a class="dropdown-item pl-0 py-2 border-bottom" href="#">slippers</a>
+                                            <a class="dropdown-item pl-0 py-2 border-bottom" href="#">sandals</a>
+                                            <a class="dropdown-item pl-0 py-2 border-bottom" href="#">party shoes</a>
+                                        </div>
+                                        <div class="col-12 col-lg-3 py-3 border-left">
+                                            <a href="#" class="my-3"><h6>clothes</h6></a>
+                                            <a class="dropdown-item pl-0 py-2 border-bottom" href="#">casual clothes</a>
+                                            <a class="dropdown-item pl-0 py-2 border-bottom" href="#">formal clothes</a>
+                                            <a class="dropdown-item pl-0 py-2 border-bottom" href="#">sports clothes </a>
+                                            <a class="dropdown-item pl-0 py-2 border-bottom" href="#">hijab</a>
+                                            <a class="dropdown-item pl-0 py-2 border-bottom" href="#">jilbab</a>
+                                            <a class="dropdown-item pl-0 py-2 border-bottom" href="#">beach clothes</a>
+                                            <a class="dropdown-item pl-0 py-2" href="#">party clothes</a>
+                                        </div>
+                                        <div class="col-lg-6 d-none d-lg-block px-0 drop-div-img">
+                                            <img src="images/women-clothes.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item border-bottom">
+                                <a class="px-lg-3 py-3 py-lg-5" href="#">accessories</a>
+                            </li>
+                            <li class="nav-item border-bottom">
+                                <a class="px-lg-3 py-3 py-lg-5" href="#">sale</a>
+                            </li>
+                            <li class="nav-item border-bottom">
+                                <a class="px-lg-3 py-3 py-lg-5" href="#">blog</a>
+                            </li>
+                            <li class="nav-item border-bottom">
+                                <a class="px-lg-3 py-3 py-lg-5" href="#">videos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="px-lg-3 py-3 py-lg-5" href="#">contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <form class="form-inline mr-3 flex-nowrap">
+                        <input class="form-control mr-2" type="search" placeholder="Type & Hit Enter">
+                        <i class="fa fa-search search"></i>
+                    </form>
+                    <i class="fa fa-shopping-cart cart d-none d-sm-block"></i>
+                </div>
+            </nav>
+    </header>
+
+    <!-- end header -->
+
+    <section class="carousel-sec sticky-top">
+        <div id="slideShow" class="carousel slide carousel-fade" data-pause="false" data-ride="carousel">
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    
+                    <div>
+                        <img src="images/woman12.png" class=" woman-img wow fadeInLeft" data-wow-duration="1s" alt="woman">
+
+                        <div class="py-4 ml-auto carou-itm-content wow rotateInUpRight" data-wow-duration="1s" >
+                            <h6 class="mt-4 mt-sm-5 mb-0 text-uppercase">Get your Shopping Bags Ready</h6>
+                            <h2 class="mt-1 mb-2">Latest Fashion<br>Collections</h2>
+                            <p class="mb-4 mt-3">We have created a Design that looks Awesome, performs Brilliantly & senses Orientations.</p>
+                            <!-- <button class="btn btn-outline-secondary mb-4 my-md-3 py-1 py-md-2 px-md-4 text-uppercase">start shopping</button> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div>
+                        <div class="py-4 py-md-5 carou-itm-content wow fadeInLeft" data-wow-duration="1s">
+                            <h6 class="mt-4 mt-sm-5 mb-0 text-uppercase">Buy Stylish Bags at Discounted Prices</h6>
+                            <h2 class="mt-1 mt-lg-2 mb-2 mb-lg-4">Messenger Bags</h2>
+                            <p class="my-4">Grantees insurmountable challenges invest protect,
+                                <br>growth improving quality social entrepreneurship.</p>
+                            <!-- <button class="btn btn-outline-secondary mb-4 my-md-3 py-1 py-md-2 px-md-4 text-uppercase">start shopping</button> -->
+                        </div>
+                        <img src="images/tag.png" class="tag wow slideInDown" data-wow-duration="1s" alt="tag">
+                        <img src="images/bag.png" class="d-block bag wow slideInRight" data-wow-duration="1s" alt="bag">
+                    </div>
+                </div>
+
+            </div>
+            <!-- <a class="carousel-control-prev" href="#slideShow" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#slideShow" role="button" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a> -->
+        </div>
+    </section>
+
+
+    <section class="content">
+
+
+
+        <div class="offers">
+                <button class="btn btn-secondary d-block mx-auto text-uppercase">start shopping</button>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-8">
+                        <div class="row justify-content-center">
+                            <div class="col-9 col-md-6 px-0 pl-lg-2 pr-md-2 pb-2 pb-md-0 wman-clothes"><img src="images/woman8.jpg" class="w-100 h-100" alt=""></div>
+                            <div class="col-9 col-md-6 px-0 pl-md-2 pt-2 pt-md-0 wman-clothes"><img src="images/women shoes.jpg" class="w-100 h-100" alt=""></div>
+                        </div>
+                        <div class="row my-3">
+                            <div class="col pl-lg-2 px-0 men-clothes"><img src="images/men-clothes4.jpg" class="w-100 h-100" alt=""></div>
+                        </div>   
+                    </div>
+                    <div class="col-6 col-lg-4 pl-0 pl-lg-3 pr-2">
+                        <div><img src="images/watch.jpg" class="w-100" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    
+        <div class="products-area px-4 px-sm-0">
+            <div class="container">
+                <div class="row border-bottom">
+                    <div class="col-12 title d-flex pl-3">
+                        <div class="border"><a class="active" data-target="#category1">New arrivals</a> </div>
+                        <div class="border"><a data-target="#category2">Best sellers</a></div>
+                        <div class="border"><a data-target="#category3">You may like</a></div>
+                    </div>
+                </div>
+    
+                <div class="products col">
+                    <div id="category1">
+                        <div class="row pt-3 justify-content-center">
+                            <div class="card col-11 col-sm-6 col-md-3 p-0 px-sm-2 mb-2 mb-md-0">
+                                <div class="card-img card-img-top position-relative">
+                                    <img src="images/woman60.jpg" class="card-img-top" alt="product">
+                                    <div class="discount">50% Off*</div>
+                                    <div class="options d-flex w-100">
+                                        <div class="add-cart px-2 border-right"><i class="fa fa-shopping-cart"></i> Add to cart</div>
+                                        <div class="view px-2"><i class="fa fa-search-plus fa-sm"></i> Quick view</div>
+                                    </div>
+                                </div>
+                                <div class="card-body p-0 pt-3">
+                                    <h5 class="card-title">women clothes</h5>
+                                    <div class="card-text"><span>$24.99</span> $12.49</div>
+                                    <ul class="px-0">
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star-half-o"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card col-11 col-sm-6 col-md-3 p-0 px-sm-2 mb-2 mb-md-0">
+                                    <div class="card-img card-img-top position-relative">
+                                        <img src="images/1-1(1).jpg" class="card-img-top" alt="product">
+                                        <div class="options d-flex w-100">
+                                            <div class="add-cart px-2 border-right"><i class="fa fa-shopping-cart"></i> Add to cart</div>
+                                            <div class="view px-2"><i class="fa fa-search-plus fa-sm"></i> Quick view</div>
+                                        </div>
+                                    </div>
+                                <div class="card-body px-0">
+                                    <h5 class="card-title">Accessories</h5>
+                                    <div class="card-text">$39.99</div>
+                                    <ul class="px-0">
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star-half-o"></li>
+                                        <li class="fa fa-star-o"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card col-11 col-sm-6 col-md-3 p-0 px-sm-2 mb-2 mb-md-0">
+                                <div class="card-img card-img-top position-relative">
+                                    <img src="images/1.jpg" class="card-img-top" alt="product">
+                                    <div class="discount">Sale!</div>
+                                    <div class="options d-flex w-100">
+                                        <div class="add-cart px-2 border-right"><i class="fa fa-shopping-cart"></i> Add to cart</div>
+                                        <div class="view px-2"><i class="fa fa-search-plus fa-sm"></i> Quick view</div>
+                                    </div>
+                                </div>
+                                <div class="card-body px-0">
+                                    <h5 class="card-title">Men clothes</h5>
+                                    <div class="card-text"><span>$45.99</span> $39.49</div>
+                                    <ul class="px-0">
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star-o"></li>
+                                        <li class="fa fa-star-o"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card col-11 col-sm-6 col-md-3 p-0 px-sm-2 mb-2 mb-md-0">
+                                <div class="card-img card-img-top position-relative">
+                                    <img src="images/1-1.jpg" class="card-img-top" alt="product">
+                                    <div class="options d-flex w-100">
+                                        <div class="add-cart px-2 border-right"><i class="fa fa-shopping-cart"></i> Add to cart</div>
+                                        <div class="view px-2"><i class="fa fa-search-plus fa-sm"></i> Quick view</div>
+                                    </div>
+                                </div>
+                                <div class="card-body px-0">
+                                    <h5 class="card-title">Shoes</h5>
+                                    <div class="card-text">$19.95</div>
+                                    <ul class="px-0">
+                                        <li class="fa fa-star fa-sm"></li>
+                                        <li class="fa fa-star fa-sm"></li>
+                                        <li class="fa fa-star fa-sm"></li>
+                                        <li class="fa fa-star fa-sm"></li>
+                                        <li class="fa fa-star-o fa-sm"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="category2">
+                        <div class="row pt-3 justify-content-center">
+                            <div class="card col-11 col-sm-6 col-md-3 p-0 px-sm-2 mb-2 mb-md-0">
+                                <div class="card-img card-img-top position-relative">
+                                    <img src="images/woman6.png" class="card-img-top" alt="product">
+                                    <div class="options d-flex w-100">
+                                        <div class="add-cart px-2 border-right"><i class="fa fa-shopping-cart"></i> Add to cart</div>
+                                        <div class="view px-2"><i class="fa fa-search-plus fa-sm"></i> Quick view</div>
+                                    </div>
+                                </div>
+                                <div class="card-body px-0">
+                                    <h5 class="card-title">Women clothes</h5>
+                                    <div class="card-text">$49.49</div>
+                                    <ul class="px-0">
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star-half-o"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card col-11 col-sm-6 col-md-3 p-0 px-sm-2 mb-2 mb-md-0">
+                                    <div class="card-img card-img-top position-relative">
+                                        <img src="images/watch2.jpg" class="card-img-top" alt="product">
+                                        <div class="discount">33% Off*</div>
+                                        <div class="options d-flex w-100">
+                                            <div class="add-cart px-2 border-right"><i class="fa fa-shopping-cart"></i> Add to cart</div>
+                                            <div class="view px-2"><i class="fa fa-search-plus fa-sm"></i> Quick view</div>
+                                        </div>
+                                    </div>
+                                <div class="card-body px-0">
+                                    <h5 class="card-title">Accessories</h5>
+                                    <div class="card-text"><span>$89.99</span> $59.49</div>
+                                    <ul class="px-0">
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star-half-o"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card col-11 col-sm-6 col-md-3 p-0 px-sm-2 mb-2 mb-md-0">
+                                <div class="card-img card-img-top position-relative">
+                                    <img src="images/1-11.jpg" class="card-img-top" alt="product">
+                                    <div class="options d-flex w-100">
+                                        <div class="add-cart px-2 border-right"><i class="fa fa-shopping-cart"></i> Add to cart</div>
+                                        <div class="view px-2"><i class="fa fa-search-plus fa-sm"></i> Quick view</div>
+                                    </div>
+                                </div>
+                                <div class="card-body px-0">
+                                    <h5 class="card-title">Men clothes</h5>
+                                    <div class="card-text">$24.99</div>
+                                    <ul class="px-0">
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star-half-o"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card col-11 col-sm-6 col-md-3 p-0 px-sm-2 mb-2 mb-md-0">
+                                <div class="card-img card-img-top position-relative">
+                                    <img src="images/2-1.jpg" class="card-img-top" alt="product">
+                                    <div class="options d-flex w-100">
+                                        <div class="add-cart px-2 border-right"><i class="fa fa-shopping-cart"></i> Add to cart</div>
+                                        <div class="view px-2"><i class="fa fa-search-plus fa-sm"></i> Quick view</div>
+                                    </div>
+                                </div>
+                                <div class="card-body px-0">
+                                    <h5 class="card-title">Shoes</h5>
+                                    <div class="card-text">$24.99</div>
+                                    <ul class="px-0">
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star-half-o"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="category3">
+                        <div class="row pt-3 justify-content-center">
+                            <div class="card col-11 col-sm-6 col-md-3 p-0 px-sm-2 mb-2 mb-md-0">
+                                <div class="card-img card-img-top position-relative">
+                                    <img src="images/woman10.png" class="card-img-top" alt="product">
+                                    <div class="options d-flex w-100">
+                                        <div class="add-cart px-2 border-right"><i class="fa fa-shopping-cart"></i> Add to cart</div>
+                                        <div class="view px-2"><i class="fa fa-search-plus fa-sm"></i> Quick view</div>
+                                    </div>
+                                </div>
+                                <div class="card-body px-0">
+                                    <h5 class="card-title">Women clothes</h5>
+                                    <div class="card-text">$24.99</div>
+                                    <ul class="px-0">
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star-half-o"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card col-11 col-sm-6 col-md-3 p-0 px-sm-2 mb-2 mb-md-0">
+                                    <div class="card-img card-img-top position-relative">
+                                        <img src="images/2-1(1).jpg" class="card-img-top" alt="product">
+                                        <div class="options d-flex w-100">
+                                            <div class="add-cart px-2 border-right"><i class="fa fa-shopping-cart"></i> Add to cart</div>
+                                            <div class="view px-2"><i class="fa fa-search-plus fa-sm"></i> Quick view</div>
+                                        </div>
+                                    </div>
+                                <div class="card-body px-0">
+                                    <h5 class="card-title">Accessories</h5>
+                                    <div class="card-text">$24.99</div>
+                                    <ul class="px-0">
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star-half-o"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card col-11 col-sm-6 col-md-3 p-0 px-sm-2 mb-2 mb-md-0">
+                                <div class="card-img card-img-top position-relative">
+                                    <img src="images/4-1.jpg" class="card-img-top" alt="product">
+                                    <div class="options d-flex w-100">
+                                        <div class="add-cart px-2 border-right"><i class="fa fa-shopping-cart"></i> Add to cart</div>
+                                        <div class="view px-2"><i class="fa fa-search-plus fa-sm"></i> Quick view</div>
+                                    </div>
+                                </div>
+                                <div class="card-body px-0">
+                                    <h5 class="card-title">Men clothes</h5>
+                                    <div class="card-text">$24.99</div>
+                                    <ul class="px-0">
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star-half-o"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card col-11 col-sm-6 col-md-3 p-0 px-sm-2 mb-2 mb-md-0">
+                                <div class="card-img card-img-top position-relative">
+                                    <img src="images/access.jpg" class="card-img-top" alt="product">
+                                    <div class="discount">Sale!</div>
+                                    <div class="options d-flex w-100">
+                                        <div class="add-cart px-2 border-right"><i class="fa fa-shopping-cart"></i> Add to cart</div>
+                                        <div class="view px-2"><i class="fa fa-search-plus fa-sm"></i> Quick view</div>
+                                    </div>
+                                </div>
+                                <div class="card-body px-0">
+                                    <h5 class="card-title">Accessories</h5>
+                                    <div class="card-text"><span>$24.99</span> $12.49</div>
+                                    <ul class="px-0">
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star-half-o"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    
+        <div class="brands text-center">
+            <div class="container">
+                <h5 class="px-3 mb-5">Popular Brands</h5>
+                <span></span>
+                <div class="row wow bounceInRight">
+                    <div class="col-6 col-sm-4 col-md-2 border p-3"><img src="images/brands/1.png" class=" w-100 h-100" alt=""></div>
+                    <div class="col-6 col-sm-4 col-md-2 border p-3"><img src="images/brands/2.png" class=" w-100 h-100" alt=""></div>
+                    <div class="col-6 col-sm-4 col-md-2 border p-3"><img src="images/brands/3.png" class=" w-100 h-100" alt=""></div>
+                    <div class="col-6 col-sm-4 col-md-2 border p-3"><img src="images/brands/4.png" class=" w-100 h-100" alt=""></div>
+                    <div class="col-6 col-sm-4 col-md-2 border p-3"><img src="images/brands/5.png" class=" w-100 h-100" alt=""></div>
+                    <div class="col-6 col-sm-4 col-md-2 border p-3"><img src="images/brands/6.png" class=" w-100 h-100" alt=""></div>
+                </div>
+                <div class="row wow bounceInLeft">
+                    <div class="col-6 col-sm-4 col-md-2 border p-3"><img src="images/brands/7.png" class=" w-100 h-100" alt=""></div>
+                    <div class="col-6 col-sm-4 col-md-2 border p-3"><img src="images/brands/8.png" class=" w-100 h-100" alt=""></div>
+                    <div class="col-6 col-sm-4 col-md-2 border p-3"><img src="images/brands/9.png" class=" w-100 h-100" alt=""></div>
+                    <div class="col-6 col-sm-4 col-md-2 border p-3"><img src="images/brands/10.png" class=" w-100 h-100" alt=""></div>
+                    <div class="col-6 col-sm-4 col-md-2 border p-3"><img src="images/brands/11.png" class=" w-100 h-100" alt=""></div>
+                    <div class="col-6 col-sm-4 col-md-2 border p-3"><img src="images/brands/12.png" class=" w-100 h-100" alt=""></div>
+                </div>
+                <div class="row wow bounceInUp">
+                    <div class="col-6 col-sm-4 col-md-2 border p-3"><img src="images/brands/13.png" class=" w-100 h-100" alt=""></div>
+                    <div class="col-6 col-sm-4 col-md-2 border p-3"><img src="images/brands/14.png" class=" w-100 h-100" alt=""></div>
+                    <div class="col-6 col-sm-4 col-md-2 border p-3"><img src="images/brands/15.png" class=" w-100 h-100" alt=""></div>
+                    <div class="col-6 col-sm-4 col-md-2 border p-3"><img src="images/brands/16.png" class=" w-100 h-100" alt=""></div>
+                    <div class="col-6 col-sm-4 col-md-2 border p-3"><img src="images/brands/18.png" class=" w-100 h-100" alt=""></div>
+                    <div class="col-6 col-sm-4 col-md-2 border p-3"><img src="images/brands/19.png" class=" w-100 h-100" alt=""></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="features">
+            <div class="container">
+                <div class="row ml-0">
+                    <div class="col-12 col-sm-6 col-md-3 feature">
+                        <div class="d-flex">
+                            <i class="fa fa-thumbs-o-up fa-2x"></i>
+                            <h5 class="ml-3 mb-3">100% original</h5>
+                        </div>
+                        <p class="mb-4 mb-md-0">We guarantee you the sale of Original Brands.</p>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3 feature">
+                        <div class="d-flex">
+                            <i class=" fa fa-credit-card fa-2x"></i>
+                            <h5 class="ml-3 mb-3">payment options</h5>
+                        </div>
+                        <p class="mb-4 mb-md-0">We accept Visa, MasterCard and American Express.</p>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3 feature">
+                        <div class="d-flex">
+                            <i class="fa fa-truck fa-2x"></i>
+                            <h5 class="ml-3 mb-3">free shipping</h5>
+                        </div>
+                        <p class="mb-4 mb-md-0">Free Delivery to 100+ Locations on orders above $40.</p>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3 feature">
+                        <div class="d-flex">
+                            <i class="fa fa-undo fa-2x"></i>
+                            <h5 class="ml-3 mb-3">30-days returns</h5>
+                        </div>
+                        <p class="mb-4 mb-md-0">Return or exchange items purchased within 30 days.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="subscribtion">
+            <div class="container">
+                <div class="row mx-0">
+                    <div class="col-12 col-md-6 p-0 pr-md-4 mb-5 mb-md-0">
+                        <img src="images/4.jpg" class="w-100 h-100" alt="">
+                    </div>
+                    <div class="col-12 col-md-6 p-0 pt-4 pl-md-3">
+                        <h3><strong>get 20% off*</strong></h3>
+                        <span>Our App scales beautifully to different Devices.</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet cumque, perferendis accusamus porro illo exercitationem molestias.</p>
+                        <form>
+                            <div class="input-group mb-0 flex-nowrap">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fa fa-paper-plane"></i> </span>
+                                </div>
+                                <input type="email" class="form-control" placeholder="Enter your email">
+                                <div class="input-group-append">
+                                    <button class="btn btn-danger" type="button" id="button-addon2">Subscribe Now</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4 contacts mb-5">
+                    <h2>trade</h2>
+                    <p>We believe in Simple, Creative & Flexible Design Standards.</p>
+                    <div>
+                        <span>
+                            <strong>Headquarters:</strong>
+                            <br>795 Folsom Ave, Suite 600
+                            San Francisco, CA 94107
+                        </span><br>
+                        <span><strong>Phone: </strong>201234567890</span><br>
+                        <span><strong>Fax: </strong>222333444555</span><br>
+                        <span><strong>Email: </strong>info@trade.com</span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 blog mb-5">
+                    <h4>blogroll</h4>
+                    <ul class="list-unstyled">
+                        <li class="mb-2">- <a href="#">Documentation</a></li>
+                        <li class="mb-2">- <a href="#">Feedback</a></li>
+                        <li class="mb-2">- <a href="#">Plugins</a></li>
+                        <li class="mb-2">- <a href="#">Support Forums</a></li>
+                        <li class="mb-2">- <a href="#">Themes</a></li>
+                        <li class="mb-2">- <a href="#">WordPress Blog</a></li>
+                        <li>- <a href="#">WordPress Planet</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-5 socials">
+                    <h5><strong>Subscribe</strong> to Our Newsletter to get Important News, Amazing Offers & Inside Scoops:</h5>
+                    <form class="mt-4">
+                        <div class="input-group mb-0 flex-nowrap">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"><i class="fa fa-paper-plane"></i> </span>
+                            </div>
+                            <input type="email" class="form-control" placeholder="Enter your email">
+                            <div class="input-group-append">
+                                <button class="btn btn-success" type="button" id="button-addon2">Subscribe</button>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="social-icons mt-5 px-5 px-md-0 d-flex flex-nowrap justify-content-around">
+                        <a href="#">
+                            <span class="fa-stack fa-lg icon-facebook">
+                                <i class="fa fa-square fa-stack-2x"></i>
+                                <i class="fa fa-facebook fa-stack-1x"></i>
+                            </span>
+                        </a>
+                        <a href="#">
+                            <span class="fa-stack fa-lg icon-twitter">
+                                <i class="fa fa-square fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x"></i>
+                            </span>   
+                        </a>
+                        <a href="#">
+                            <span class="fa-stack fa-lg icon-linkedin">
+                                <i class="fa fa-square fa-stack-2x"></i>
+                                <i class="fa fa-linkedin fa-stack-1x"></i>
+                            </span>
+                        </a>
+                        <a href="#">
+                            <span class="fa-stack fa-lg icon-github">
+                                <i class="fa fa-square fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="https://unpkg.com/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>new WOW().init();</script>
+    <script src="js/main.js"></script>
+</body>
+</html>
