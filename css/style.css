@@ -23,17 +23,22 @@ input:focus{outline: none; box-shadow: unset !important}
 
 /* start topbar */
 
-.top-bar{font-size: 12px;border-bottom: 1px solid #eee}
+.top-bar{
+    font-size: 12px;
+    border-bottom: 1px solid #eee
+}
 
-.top-bar .row > div{height: 44px;line-height: 44px;padding: 0 !important}
+.top-bar .row > div{
+    height: 44px;
+    line-height: 44px;
+    padding: 0 !important
+}
 
-.log{position: relative;transition: background-color .3s ease}
+.log{
+    transition: background-color .3s ease
+}
 
 .log a{
-    display: block;
-    width: 100%;
-    text-transform: uppercase;
-    font-weight: 700;
     color: #777;
 }
 
@@ -42,10 +47,8 @@ input:focus{outline: none; box-shadow: unset !important}
 }
 
 .log .log-form{
-    position: absolute;
     top: 44px;
     right: 0;
-    background-color: #fff;
     border-top: 1px solid #1abc9c;
     padding: 25px;
     width: 280px;
@@ -57,9 +60,7 @@ input:focus{outline: none; box-shadow: unset !important}
 
 .log .log-form .form-check{
     font-size: 13px;
-    font-weight: 700;
     font-family: Raleway,sans-serif;
-    text-transform: uppercase;
     letter-spacing: 1px;
     color: #555;
     margin-top: 10px;
@@ -92,8 +93,6 @@ input:focus{outline: none; box-shadow: unset !important}
 
 .navbar-brand {
     font-size: 2.3rem;
-    font-weight: 700;
-    text-transform: uppercase;
     letter-spacing: 1.6;
     color: rgba(0,0,0,0.7) !important;
     transition: all .3 ease-in-out;
@@ -104,10 +103,8 @@ input:focus{outline: none; box-shadow: unset !important}
 
 .navbar input[type="search"]{
     width: 97%;
-    height: 100%;
     padding: 10px;
     font-size: 1.7rem;
-    border: none;
     outline: none;
     box-shadow: unset;
     display: none;
@@ -116,14 +113,13 @@ input:focus{outline: none; box-shadow: unset !important}
 
 .navbar i{
     cursor: pointer;
-    
 }
 .fa-times{
     cursor: pointer;
     display: none
 }
 
-.cart{position: relative;transition: color .3s ease;}
+.cart{transition: color .3s ease;}
 
 .cart::after{
     position: absolute;
@@ -152,20 +148,17 @@ input:focus{outline: none; box-shadow: unset !important}
 }
 
 .navbar ul li a{
-    display: block;
     line-height: 22px;
     color: #444 !important;
     font-weight: 900;
     font-size: 13px;
     letter-spacing: 1px;
-    text-transform: uppercase;
     font-family: Raleway,sans-serif;
     transition: all .3s ease,padding .3s ease;
 }
 
 .dropdown-menu a{
     font-size: 11px !important;
-    font-weight: 700;
     color: #666 !important;
     transition: all .3s ease
 }
@@ -175,7 +168,6 @@ input:focus{outline: none; box-shadow: unset !important}
 }
 
 .dropdown-menu h6{
-    font-weight: 900;
     font-size: 13px;
     color: #000;
     transition: color .3s ease
@@ -191,9 +183,7 @@ input:focus{outline: none; box-shadow: unset !important}
 .drop-div-img{height: 348px;}
 
 .drop-div-img > img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover
+    object-fit: cover;
 }
 
 /* end header */
@@ -223,38 +213,28 @@ input:focus{outline: none; box-shadow: unset !important}
 
 .carousel-sec{
     user-select: none;
-    overflow: hidden;
-    position: sticky;
     z-index: -1;
     padding-bottom: 30px
 }
 
-.carousel-item{
-    overflow: hidden;
+.carousel-item,
+.carousel-item .carou-itm-content {
     min-height: 100%;
 }
 
 .carousel-item > div{
     background-color: rgb(233, 232, 227);
-    position: relative;
-}
 
-.carousel-item .carou-itm-content{min-height: 100%;}
+}
 
 .carousel-item:first-of-type > div{
     background-color: #f0edf4;
-    overflow: hidden;
-}
-
-.carousel-item:first-of-type > div .carou-itm-content{
-    width: 50%;
 }
 
 .carousel-item:first-of-type > div .carou-itm-content p{max-width: 80%}
 
 .carousel-item:first-of-type > div .woman-img{
     width: 40%;
-    position: absolute;
     top: 0;
     left: 0;
 }
@@ -262,19 +242,16 @@ input:focus{outline: none; box-shadow: unset !important}
 .carousel-item .bag{
     width: 30%;
     height: 70%;
-    position: absolute;
     top: 15%;
     bottom: 30%;
     right: 4%;
+     object-fit: contain;
 }
 
 .carousel-item .tag{
     width: 9%;
-    height: 45%;
-    position: absolute;
-    top: 0;
-    right: 450px;
-    left: 46%;
+    top: -5%;
+    left: 50%;
 }
 
 .carou-itm-content h6{
@@ -286,18 +263,11 @@ input:focus{outline: none; box-shadow: unset !important}
 .carou-itm-content h2{
     color: #333;
     font-size: 5vw;
-    font-weight: 700;
     margin-left: 3px
 }
 
 .carou-itm-content p{
-    text-transform: unset;
     color: rgb(51, 51, 51);
-    max-width: 50%;
-    white-space: normal;
-    margin: 0px;
-    padding: 0px;
-    font-weight: 400;
     font-size: 1.5vw;
     letter-spacing: .3px
 }
@@ -309,14 +279,14 @@ input:focus{outline: none; box-shadow: unset !important}
     z-index: 1000000;
 }
 
-.carousel-control-prev,
+/* .carousel-control-prev,
 .carousel-control-next{
     width: 60px;
     height: 60px;
     border-radius: 50%;
     top: calc(50% - 30px);
     background-color: #1abc9c;
-}
+} */
 
 
 
@@ -362,9 +332,7 @@ input:focus{outline: none; box-shadow: unset !important}
     height: 244px;
 }
 
-.offers img{
-    object-fit: cover top
-}
+
 
 
 
@@ -448,6 +416,7 @@ input:focus{outline: none; box-shadow: unset !important}
     height: 293px;
     transition: all .5s ease-in-out;
     overflow: hidden;
+        object-fit: cover;
 }
 
 .card .discount{

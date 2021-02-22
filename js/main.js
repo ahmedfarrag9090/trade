@@ -15,7 +15,7 @@ $(function(){
     $('html, body').on('click', function(e){
         if($(e.target).closest('.log a, .log-form').length)
             return;
-        if($('.log a').siblings('.log-form').css('display') == "block"){
+        if($('.log a').siblings('.log-form').css('display') === "block"){
             $('.log a').siblings('.log-form').fadeOut();
             $('.log a').css('background-color', '');
         }
@@ -27,7 +27,7 @@ $(function(){
 
             $(this).prev('input').show()
             .parents('form').css({
-                'width': '93%',
+                'width': '100%',
                 'height': '100%'
             })
             .siblings(':not(#navlinks)').hide()
@@ -70,7 +70,7 @@ $(function(){
     $('.dropdown').on({
         'mouseenter' : function(){
             if($(this).children('.dropdown-menu').css('display') == 'none'){
-                $(this).children('.dropdown-menu').fadeIn();
+                $(this).children('.dropdown-menu').delay(300).fadeIn();
 
             }
             
@@ -78,10 +78,10 @@ $(function(){
 
         'mouseleave' : function(){
 
-            if($(this).children('.dropdown-menu').css('display') == 'block'){
-                $(this).children('.dropdown-menu').fadeOut();
+            // if($(this).children('.dropdown-menu').css('display') == 'block'){
+                $(this).children(".dropdown-menu").delay(300).fadeOut();
 
-            }
+            // }
             
 
         }
