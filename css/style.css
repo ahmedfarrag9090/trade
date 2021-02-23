@@ -1,6 +1,5 @@
-
-body{
-    font-family: Lato,sans-serif;
+body {
+    font-family: Lato, sans-serif;
     color: #555;
     line-height: 1.6;
     letter-spacing: 1.1;
@@ -9,9 +8,15 @@ body{
 a:focus,
 a:active,
 a:hover,
-a:visited{text-decoration: none;outline: none}
+a:visited {
+    text-decoration: none;
+    outline: none
+}
 
-input:focus{outline: none; box-shadow: unset !important}
+input:focus {
+    outline: none;
+    box-shadow: unset !important
+}
 
 
 
@@ -23,44 +28,44 @@ input:focus{outline: none; box-shadow: unset !important}
 
 /* start topbar */
 
-.top-bar{
+.top-bar {
     font-size: 12px;
     border-bottom: 1px solid #eee
 }
 
-.top-bar .row > div{
+.top-bar .row>div {
     height: 44px;
     line-height: 44px;
     padding: 0 !important
 }
 
-.log{
+.log {
     transition: background-color .3s ease
 }
 
-.log a{
+.log a {
     color: #777;
 }
 
-.log:hover{
+.log:hover {
     background-color: #eee
 }
 
-.log .log-form{
+.log .log-form {
     top: 44px;
     right: 0;
     border-top: 1px solid #1abc9c;
     padding: 25px;
     width: 280px;
     border-bottom: 1px solid #eee;
-    box-shadow: 0 0 5px rgba(0,0,0,.2);
+    box-shadow: 0 0 5px rgba(0, 0, 0, .2);
     z-index: 9999;
     display: none;
 }
 
-.log .log-form .form-check{
+.log .log-form .form-check {
     font-size: 13px;
-    font-family: Raleway,sans-serif;
+    font-family: Raleway, sans-serif;
     letter-spacing: 1px;
     color: #555;
     margin-top: 10px;
@@ -70,12 +75,14 @@ input:focus{outline: none; box-shadow: unset !important}
     line-height: 20px
 }
 
-.log .form-check .form-check-label{
+.log .form-check .form-check-label {
     cursor: pointer;
     margin-top: 3px;
 }
 
-.log .log-form button{box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);}
+.log .log-form button {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
 
 /* end topbar */
 
@@ -94,14 +101,16 @@ input:focus{outline: none; box-shadow: unset !important}
 .navbar-brand {
     font-size: 2.3rem;
     letter-spacing: 1.6;
-    color: rgba(0,0,0,0.7) !important;
+    color: rgba(0, 0, 0, 0.7) !important;
     transition: all .3 ease-in-out;
 }
 
 
-.navbar button:focus{outline: none}
+.navbar button:focus {
+    outline: none
+}
 
-.navbar input[type="search"]{
+.navbar input[type="search"] {
     width: 97%;
     padding: 10px;
     font-size: 1.7rem;
@@ -111,24 +120,27 @@ input:focus{outline: none; box-shadow: unset !important}
     transition: all .3s ease
 }
 
-.navbar i{
+.navbar i {
     cursor: pointer;
 }
-.fa-times{
+
+.fa-times {
     cursor: pointer;
     display: none
 }
 
-.cart{transition: color .3s ease;}
+.cart {
+    transition: color .3s ease;
+}
 
-.cart::after{
+.cart::after {
     position: absolute;
-    top:-10px;
+    top: -10px;
     left: 11px;
     display: inline-block;
     content: "5";
     color: #fff;
-    text-shadow: 1px 1px 1px rgba(0,0,0,.2);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
     background-color: #1abc9c;
     width: 16px;
     height: 16px;
@@ -138,66 +150,73 @@ input:focus{outline: none; box-shadow: unset !important}
     border-radius: 50%;
 }
 
-.cart:hover{color: #1abc9c}
+.cart:hover {
+    color: #1abc9c
+}
 
-@media (min-width: 992px){
+@media (min-width: 992px) {
+
     .navbar ul li,
-    .navbar .dropdown-menu a{
-        border:none !important
+    .navbar .dropdown-menu a {
+        border: none !important
     }
 }
 
-.navbar ul li a{
+.navbar ul li a {
     line-height: 22px;
     color: #444 !important;
     font-weight: 900;
     font-size: 13px;
     letter-spacing: 1px;
-    font-family: Raleway,sans-serif;
-    transition: all .3s ease,padding .3s ease;
+    font-family: Raleway, sans-serif;
+    transition: all .3s ease, padding .3s ease;
 }
 
-.dropdown-menu a{
+.dropdown-menu a {
     font-size: 11px !important;
     color: #666 !important;
     transition: all .3s ease
 }
 
-.dropdown-menu a:not(:first-of-type):hover{
+.dropdown-menu a:not(:first-of-type):hover {
     padding-left: 10px !important
 }
 
-.dropdown-menu h6{
+.dropdown-menu h6 {
     font-size: 13px;
     color: #000;
     transition: color .3s ease
 }
 
-.navbar ul .active a,
-.navbar ul li:hover > a,
+.navbar ul li.active a,
 .navbar ul li a:hover,
-.navbar ul li a:hover h6{
+.navbar ul li a:hover h6 {
     color: #1abc9c !important;
 }
 
-.drop-div-img{height: 348px;}
+.drop-div-img {
+    height: 348px;
+}
 
-.drop-div-img > img{
+.drop-div-img>img {
+    -o-object-fit: cover;
     object-fit: cover;
 }
 
 /* end header */
 
 
-.dropdown-menu{
-    border:none;
-    border-top:1px solid #1abc9c;
-    box-shadow: 0 13px 42px 11px rgba(0,0,0,.05);
+.dropdown-menu {
+    border: none;
+    border-top: 1px solid #1abc9c;
+    box-shadow: 0 13px 42px 11px rgba(0, 0, 0, .05);
     left: -350%;
 }
 
-@media (min-width: 992px){
-    .dropdown-menu{width: 900px !important;}
+@media (min-width: 992px) {
+    .dropdown-menu {
+        width: 900px !important;
+    }
 }
 
 
@@ -211,7 +230,10 @@ input:focus{outline: none; box-shadow: unset !important}
 
 
 
-.carousel-sec{
+.carousel-sec {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
     user-select: none;
     z-index: -1;
     padding-bottom: 30px
@@ -222,61 +244,63 @@ input:focus{outline: none; box-shadow: unset !important}
     min-height: 100%;
 }
 
-.carousel-item > div{
+.carousel-item>div {
     background-color: rgb(233, 232, 227);
 
 }
 
-.carousel-item:first-of-type > div{
+.carousel-item:first-of-type>div {
     background-color: #f0edf4;
 }
 
-.carousel-item:first-of-type > div .carou-itm-content p{max-width: 80%}
+.carousel-item:first-of-type>div .carou-itm-content p {
+    max-width: 80%
+}
 
-.carousel-item:first-of-type > div .woman-img{
+.carousel-item:first-of-type>div .woman-img {
     width: 40%;
     top: 0;
     left: 0;
 }
 
-.carousel-item .bag{
+.carousel-item .bag {
     width: 30%;
     height: 70%;
     top: 15%;
     bottom: 30%;
     right: 4%;
-     object-fit: contain;
+    -o-object-fit: contain;
+    object-fit: contain;
 }
 
-.carousel-item .tag{
+.carousel-item .tag {
     width: 9%;
     top: -5%;
     left: 50%;
 }
 
-.carou-itm-content h6{
+.carou-itm-content h6 {
     font-size: 1.3vw;
     letter-spacing: 1.3px;
     color: #777
 }
 
-.carou-itm-content h2{
+.carou-itm-content h2 {
     color: #333;
     font-size: 5vw;
     margin-left: 3px
 }
 
-.carou-itm-content p{
+.carou-itm-content p {
     color: rgb(51, 51, 51);
     font-size: 1.5vw;
     letter-spacing: .3px
 }
 
-.carou-itm-content button{
+.carou-itm-content button {
     color: #000;
-    border:1.5px solid #777;
+    border: 1.5px solid #777;
     font-size: 2vw;
-    z-index: 1000000;
 }
 
 /* .carousel-control-prev,
@@ -302,7 +326,7 @@ input:focus{outline: none; box-shadow: unset !important}
 
 
 
-.content{
+.content {
     background-color: #fff
 }
 
@@ -311,24 +335,18 @@ input:focus{outline: none; box-shadow: unset !important}
 
 
 
-.offers{
+.offers {
     padding: 30px 0;
     background-color: #fff;
     z-index: 9;
     position: relative;
 }
 
-.offers button{
-    position: absolute;
-    top: -38px;
-    left: calc(50% - 83px)
-}
-
-.offers .wman-clothes{
+.offers .wman-clothes {
     height: 255px;
 }
 
-.offers .men-clothes{
+.offers .men-clothes {
     height: 244px;
 }
 
@@ -347,20 +365,23 @@ input:focus{outline: none; box-shadow: unset !important}
 
 
 
-.products-area{
+.products-area {
     background-color: #fff;
     padding: 30px 0;
 }
 
-.title > div{
+.title>div {
     width: 150px;
     height: 40px;
     line-height: 40px;
     position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
     user-select: none;
 }
 
-.title a{
+.title a {
     display: inline-block;
     padding: 0 5px;
     background-color: #f2f2f2;
@@ -376,50 +397,51 @@ input:focus{outline: none; box-shadow: unset !important}
     overflow: hidden;
 }
 
-.title a.active{
+.title a.active {
     background-color: #fff;
     height: 110%;
     padding-top: 2px
 }
 
-.products{
+.products {
     position: relative;
     left: -15px;
 }
 
-.products > div{
+.products>div {
     position: relative;
     top: 0;
     left: 15px;
 }
 
-.products > div:not(:first-of-type){
+.products>div:not(:first-of-type) {
     display: none
 }
 
 
-.card{
-    border:unset;
+.card {
+    border: unset;
 }
 
-.card:hover img{
+.card:hover img {
     transform: scale(1.2);
     opacity: .7;
 }
 
-.card:hover .options{
+.card:hover .options {
     bottom: 0;
 }
 
-.card-img-top{
+.card-img-top {
     width: 100%;
     height: 293px;
     transition: all .5s ease-in-out;
     overflow: hidden;
-        object-fit: cover;
+    -o-object-fit: cover;
+    object-fit: cover;
 }
 
-.card .discount{
+.card .discount {
     position: absolute;
     top: 10px;
     left: 10px;
@@ -427,12 +449,12 @@ input:focus{outline: none; box-shadow: unset !important}
     font-size: 14px;
     color: #fff;
     padding: 6px 10px;
-    text-shadow: 1px 1px 1px rgba(0,0,0,.2);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
     border-radius: 2px;
     z-index: 5;
 }
 
-.card .options{
+.card .options {
     font-size: 14px;
     color: #000;
     height: 44px;
@@ -444,7 +466,7 @@ input:focus{outline: none; box-shadow: unset !important}
     transition: all .3s linear
 }
 
-.card .options div{
+.card .options div {
     display: inline-block;
     text-align: center;
     transition: all .3s linear;
@@ -452,31 +474,31 @@ input:focus{outline: none; box-shadow: unset !important}
     width: calc(50% - 2px)
 }
 
-.card .options div:hover{
+.card .options div:hover {
     background-color: #333;
     color: #eee
 }
 
-.card .card-body{
+.card .card-body {
     font-weight: 700
 }
 
-.card .card-body h5{
+.card .card-body h5 {
     cursor: pointer;
     transition: all .3s ease;
     display: inline-block
 }
 
-.card .card-body h5:hover{
+.card .card-body h5:hover {
     color: #1abc9c
 }
 
-.card .card-body .card-text:not(span){
+.card .card-body .card-text:not(span) {
     font-size: 19px;
     color: #1abc9c
 }
 
-.card .card-body .card-text span{
+.card .card-body .card-text span {
     font-size: 1rem;
     font-weight: 400;
     color: #777;
@@ -493,22 +515,22 @@ input:focus{outline: none; box-shadow: unset !important}
 
 
 
-.brands{
+.brands {
     background-color: #fff;
     position: relative;
     padding: 30px 0
 }
 
-.brands h5{
+.brands h5 {
     color: #222;
     position: relative;
     background-color: #fff;
     display: inline-block;
     z-index: 2;
-    font-family: Raleway,sans-serif
+    font-family: Raleway, sans-serif
 }
 
-.brands span{
+.brands span {
     display: inline-block;
     position: absolute;
     left: 0;
@@ -518,13 +540,15 @@ input:focus{outline: none; box-shadow: unset !important}
     z-index: 1;
 }
 
-.brands img{
+.brands img {
     opacity: .6;
     transition: all .2s ease-in-out;
     cursor: pointer;
 }
 
-.brands img:hover{opacity: 1;}
+.brands img:hover {
+    opacity: 1;
+}
 
 
 
@@ -537,14 +561,14 @@ input:focus{outline: none; box-shadow: unset !important}
 
 
 
-.features{
+.features {
     padding: 60px 0;
     margin-top: 60px;
     background-color: #f9f9f9
 }
 
-.features h5{
-    font-family: Raleway,sans-serif;
+.features h5 {
+    font-family: Raleway, sans-serif;
     font-size: 15px;
     color: #222;
     display: inline-block;
@@ -554,7 +578,7 @@ input:focus{outline: none; box-shadow: unset !important}
     line-height: 25px
 }
 
-.features p{
+.features p {
     color: #999;
     line-height: 1.8;
     max-width: 95%;
@@ -571,19 +595,19 @@ input:focus{outline: none; box-shadow: unset !important}
 
 
 
-.subscribtion{
+.subscribtion {
     padding: 60px 0
 }
 
-.subscribtion h3{
+.subscribtion h3 {
     color: #222;
     text-transform: uppercase;
-    font-family: Raleway,sans-serif;
+    font-family: Raleway, sans-serif;
     font-size: 26px;
     letter-spacing: 1px
 }
 
-.subscribtion h3 ~ span{
+.subscribtion h3~span {
     display: block;
     margin-top: 10px;
     font-size: 1rem;
@@ -592,7 +616,7 @@ input:focus{outline: none; box-shadow: unset !important}
     letter-spacing: 1px
 }
 
-.subscribtion h3 ~ span::after{
+.subscribtion h3~span::after {
     content: '';
     display: block;
     margin-top: 30px;
@@ -600,10 +624,10 @@ input:focus{outline: none; box-shadow: unset !important}
     border-top: 2px solid #444;
 }
 
-.subscribtion p{
+.subscribtion p {
     font-size: 15px;
     margin-bottom: 30px;
-    margin-top:50px;
+    margin-top: 50px;
     line-height: 1.8
 }
 
@@ -616,39 +640,39 @@ input:focus{outline: none; box-shadow: unset !important}
 
 
 
-footer{
+footer {
     background-color: #333;
     color: #ccc;
     padding: 60px 0
 }
 
-footer .contacts h2{
+footer .contacts h2 {
     font-size: 40px;
     font-weight: 700;
     text-transform: uppercase;
     color: #eee
 }
 
-footer .contacts p{
+footer .contacts p {
     font-size: 14px;
     opacity: .8;
     margin: 10px 0 30px 0
 }
 
-footer .contacts > div > span{
+footer .contacts>div>span {
     font-size: 14px;
     letter-spacing: .5px
 }
 
-footer .contacts > div > span:first-of-type{
+footer .contacts>div>span:first-of-type {
     display: block;
     margin-bottom: 12px;
 }
 
-footer h4{
+footer h4 {
     margin-top: 15px;
     margin-bottom: 25px;
-    font-family: Raleway,sans-serif;
+    font-family: Raleway, sans-serif;
     font-size: 15px;
     font-weight: 600;
     letter-spacing: 2px;
@@ -656,41 +680,43 @@ footer h4{
     color: #ddd
 }
 
-footer .blog li a{
+footer .blog li a {
     color: #bbb;
     transition: all .3s ease;
 }
 
-footer .blog li a:hover{color: #999}
+footer .blog li a:hover {
+    color: #999
+}
 
-footer .socials h5{
+footer .socials h5 {
     font-size: 14px;
     font-weight: 300;
-    font-family: Raleway,sans-serif;
+    font-family: Raleway, sans-serif;
     margin-top: 15px
 }
 
-footer .social-icons .icon-facebook .fa-stack-2x{
+footer .social-icons .icon-facebook .fa-stack-2x {
     font-size: 2em;
     color: #4267b2
 }
 
-footer .social-icons .icon-twitter .fa-stack-2x{
+footer .social-icons .icon-twitter .fa-stack-2x {
     font-size: 2em;
-    color: rgba(29,161,242,1.00);
+    color: rgba(29, 161, 242, 1.00);
 }
 
-footer .social-icons .icon-linkedin .fa-stack-2x{
+footer .social-icons .icon-linkedin .fa-stack-2x {
     font-size: 2em;
     color: #0077b5
 }
 
-footer .social-icons .icon-github .fa-stack-2x{
+footer .social-icons .icon-github .fa-stack-2x {
     font-size: 2em;
     color: #000
 }
 
-footer .social-icons .fa-stack-1x{
+footer .social-icons .fa-stack-1x {
     color: #fff;
-    
+
 }
